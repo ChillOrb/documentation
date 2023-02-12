@@ -25,7 +25,7 @@ The Jaeger Operator version tracks one version of the Jaeger components (Query, 
 
 ## Prerequisite
 
-Since version 1.31 the Jaeger Operator uses webhooks to validate Jaeger custom resources (CRs). This requires an installed version of the [cert-manager](https://cert-manager.io/docs/). A more detailed list of supported versions can be found in the [compability matrix](https://github.com/jaegertracing/jaeger-operator#compatibility-matrix). An installation guide can be found [here](https://cert-manager.io/v1.6-docs/installation/#default-static-install).
+Since version 1.31 the Jaeger Operator uses webhooks to validate Jaeger custom resources (CRs). This requires an installed version of the [cert-manager](https://cert-manager.io/docs/). A more detailed list of supported versions can be found in the [compability matrix](). An installation guide can be found [here](https://cert-manager.io/v1.6-docs/installation/#default-static-install).
 
 {{< warning >}}
 cert-manager version 1.6.1 or higher must be installed.
@@ -976,7 +976,7 @@ spec:
 
 This example defines a default sampling strategy that is probabilistic, with a 50% chance of the trace instances being sampled.
 
-Refer to the Jaeger documentation on [Collector Sampling Configuration](https://www.jaegertracing.io/docs/latest/sampling/#collector-sampling-configuration) to see how service and endpoint sampling can be configured. The JSON representation described in that documentation can be used in the operator by converting to YAML.
+Refer to the Jaeger documentation on [Collector Sampling Configuration]() to see how service and endpoint sampling can be configured. The JSON representation described in that documentation can be used in the operator by converting to YAML.
 
 ## Finer grained configuration
 
@@ -1067,7 +1067,7 @@ spec:
             path: log_level
 ```
 
-Note: If necessary, imagePullSecrets can be configured for components through their serviceAccounts (see https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/#add-image-pull-secret-to-service-account). For the sidecar, see the [Deployment-level Configurations for Injected Sidecars](#deployment-level-configurations-for-injected-sidecars) section.
+Note: If necessary, imagePullSecrets can be configured for components through their serviceAccounts (see . For the sidecar, see the [Deployment-level Configurations for Injected Sidecars](#deployment-level-configurations-for-injected-sidecars) section.
 
 # Accessing the Jaeger Console (UI)
 <!-- TODO Add tabs shortcode -->
@@ -1075,7 +1075,7 @@ Note: If necessary, imagePullSecrets can be configured for components through th
 ## Kubernetes
 
 The operator creates a Kubernetes [`ingress`](https://kubernetes.io/docs/concepts/services-networking/ingress/) route, which is the Kubernetes' standard for exposing a service to the outside world, but by default it does not come with Ingress providers.
-Check the [Kubernetes documentation](https://kubernetes.github.io/ingress-nginx/deploy/#verify-installation) for the most appropriate way to achieve an Ingress provider for your platform.  The following command enables the Ingress provider on `minikube`:
+Check the [Kubernetes documentation]() for the most appropriate way to achieve an Ingress provider for your platform.  The following command enables the Ingress provider on `minikube`:
 
 ```bash
 minikube addons enable ingress

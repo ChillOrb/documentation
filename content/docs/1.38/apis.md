@@ -96,7 +96,7 @@ Please refer to the [SPM Documentation](../spm#api)
 [collector.proto]: https://github.com/jaegertracing/jaeger-idl/blob/main/proto/api_v2/collector.proto
 [query.proto]: https://github.com/jaegertracing/jaeger-idl/blob/main/proto/api_v2/query.proto
 [sampling.proto]: https://github.com/jaegertracing/jaeger-idl/blob/main/proto/api_v2/sampling.proto
-[grpc-reflection]: https://github.com/grpc/grpc-go/blob/master/Documentation/server-reflection-tutorial.md#enable-server-reflection
+[grpc-reflection]: 
 [gogo-reflection]: https://jbrandhorst.com/post/gogoproto/#reflection
 [otlp]: https://opentelemetry.io/docs/reference/specification/protocol/
 [storage.proto]: https://github.com/jaegertracing/jaeger/blob/main/plugin/storage/grpc/proto/storage.proto

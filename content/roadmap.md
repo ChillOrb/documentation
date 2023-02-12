@@ -62,7 +62,7 @@ that comes in handy in various scenarios:
 
 ## Ideation
 
-* Multi-Tenancy ([mailgroup thread](https://groups.google.com/forum/#!topic/jaeger-tracing/PcxftflO4_o))
+* Multi-Tenancy ([mailgroup thread]())
 * Cloud and Multi-DC strategy
 * Flagging of anomalous traces
 * Alerting capabilities to complement operational use cases

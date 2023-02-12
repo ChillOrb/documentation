@@ -395,7 +395,7 @@ docker run \
 #### Shards and Replicas for Elasticsearch indices
 
 Shards and replicas are some configuration values to take special attention to, because this is decided upon
-index creation. [This article](https://qbox.io/blog/optimizing-elasticsearch-how-many-shards-per-index) goes into
+index creation. [This article]() goes into
 more information about choosing how many shards should be chosen for optimization.
 
 #### Elasticsearch Rollover
@@ -406,9 +406,9 @@ Jaeger by default stores data in daily indices which might not optimally utilize
 
 Rollover lets you configure when to roll over to a new index based on one or more of the following criteria:
 
-* `max_age` - the maximum age of the index. It uses [time units](https://www.elastic.co/guide/en/elasticsearch/reference/master/common-options.html#time-units): `d`, `h`, `m`.
+* `max_age` - the maximum age of the index. It uses [time units](): `d`, `h`, `m`.
 * `max_docs` - the maximum documents in the index.
-* `max_size` - the maximum estimated size of primary shards (since Elasticsearch 6.x). It uses [byte size units](https://www.elastic.co/guide/en/elasticsearch/reference/master/common-options.html#byte-units) `tb`, `gb`, `mb`.
+* `max_size` - the maximum estimated size of primary shards (since Elasticsearch 6.x). It uses [byte size units]() `tb`, `gb`, `mb`.
 
 Rollover index management strategy is more complex than using the default daily indices and it requires an initialisation job to prepare the storage and two cron jobs to manage indices.
 
@@ -620,9 +620,9 @@ docker run \
 ```
 
 #### Topic & partitions
-Unless your Kafka cluster is configured to automatically create topics, you will need to create it ahead of time. You can refer to [the Kafka quickstart documentation](https://kafka.apache.org/documentation/#quickstart_createtopic) to learn how.
+Unless your Kafka cluster is configured to automatically create topics, you will need to create it ahead of time. You can refer to [the Kafka quickstart documentation]() to learn how.
 
-You can find more information about topics and partitions in general in the [official documentation](https://kafka.apache.org/documentation/#intro_topics). [This article](https://www.confluent.io/blog/how-to-choose-the-number-of-topicspartitions-in-a-kafka-cluster/) provide more details about how to choose the number of partitions.
+You can find more information about topics and partitions in general in the [official documentation](). [This article](https://www.confluent.io/blog/how-to-choose-the-number-of-topicspartitions-in-a-kafka-cluster/) provide more details about how to choose the number of partitions.
 
 ### Storage plugin
 

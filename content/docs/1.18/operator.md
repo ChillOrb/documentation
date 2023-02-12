@@ -880,7 +880,7 @@ spec:
 
 This example defines a default sampling strategy that is probabilistic, with a 50% chance of the trace instances being sampled.
 
-Refer to the Jaeger documentation on [Collector Sampling Configuration](https://www.jaegertracing.io/docs/latest/sampling/#collector-sampling-configuration) to see how service and endpoint sampling can be configured. The JSON representation described in that documentation can be used in the operator by converting to YAML.
+Refer to the Jaeger documentation on [Collector Sampling Configuration]() to see how service and endpoint sampling can be configured. The JSON representation described in that documentation can be used in the operator by converting to YAML.
 
 ## Finer grained configuration
 
@@ -977,7 +977,7 @@ spec:
 ## Kubernetes
 
 The operator creates a Kubernetes [`ingress`](https://kubernetes.io/docs/concepts/services-networking/ingress/) route, which is the Kubernetes' standard for exposing a service to the outside world, but by default it does not come with Ingress providers.
-Check the [Kubernetes documentation](https://kubernetes.github.io/ingress-nginx/deploy/#verify-installation) for the most appropriate way to achieve an Ingress provider for your platform.  The following command enables the Ingress provider on `minikube`:
+Check the [Kubernetes documentation]() for the most appropriate way to achieve an Ingress provider for your platform.  The following command enables the Ingress provider on `minikube`:
 
 ```bash
 minikube addons enable ingress

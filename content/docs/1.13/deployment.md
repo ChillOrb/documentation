@@ -282,7 +282,7 @@ See the [README](https://github.com/jaegertracing/jaeger/tree/master/plugin/stor
 #### Shards and Replicas for Elasticsearch indices
 
 Shards and replicas are some configuration values to take special attention to, because this is decided upon
-index creation. [This article](https://qbox.io/blog/optimizing-elasticsearch-how-many-shards-per-index) goes into
+index creation. [This article]() goes into
 more information about choosing how many shards should be chosen for optimization.
 
 ### Kafka
@@ -316,9 +316,9 @@ docker run \
 ```
 
 #### Topic & partitions
-Unless your Kafka cluster is configured to automatically create topics, you will need to create it ahead of time. You can refer to [the Kafka quickstart documentation](https://kafka.apache.org/documentation/#quickstart_createtopic) to learn how.
+Unless your Kafka cluster is configured to automatically create topics, you will need to create it ahead of time. You can refer to [the Kafka quickstart documentation]() to learn how.
 
-You can find more information about topics and partitions in general in the [official documentation](https://kafka.apache.org/documentation/#intro_topics). [This article](https://www.confluent.io/blog/how-to-choose-the-number-of-topicspartitions-in-a-kafka-cluster/) provide more details about how to choose the number of partitions.
+You can find more information about topics and partitions in general in the [official documentation](). [This article](https://www.confluent.io/blog/how-to-choose-the-number-of-topicspartitions-in-a-kafka-cluster/) provide more details about how to choose the number of partitions.
 
 ### Storage plugin
 

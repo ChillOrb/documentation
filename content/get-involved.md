@@ -8,7 +8,7 @@ Jaeger is an open source project with [open governance](https://github.com/jaege
 
 * Join the [online chat room](../get-in-touch) and help answering questions from the rest of the community.
 * Join our [bi-weekly video calls](../get-in-touch) to discuss issues, large initiatives, or present case studies.
-* Help documenting answers to common questions, either in [Jaeger documentation](https://github.com/jaegertracing/documentation) or [Stackoverflow](https://stackoverflow.com/questions/tagged/jaeger).
+* Help documenting answers to common questions, either in [Jaeger documentation](https://github.com/jaegertracing/documentation) or [Stackoverflow]().
 * Help improving [Jaeger documentation](https://github.com/jaegertracing/documentation), especially if you yourself run into issues where something is not clear or not working.
 * Publish blog posts or tutorials about Jaeger, for example:
   * What kind of deployment model you chose in your company and why.
